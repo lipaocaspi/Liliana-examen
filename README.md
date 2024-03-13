@@ -109,6 +109,7 @@
 Reglas como las vistas a continuación definen cómo se ve el layout dependiendo del ancho de la pantalla.
 
 ```
+@media (max-width: 1600px) {
     .page__options-1--small {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
